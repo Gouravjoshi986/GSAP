@@ -1,0 +1,6 @@
+// imported using gsap cdn link 
+
+* two basic methods are to and from 
+1. using to 
+gsap.to({key value pair})
+eg.  gsap.to("css selector",{ // properties object})
