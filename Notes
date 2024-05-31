@@ -43,3 +43,5 @@ higher the value more the smoothness.
 
 Gsap easing is used to control graph/curve speeds.
 svgs can be modified by dom manipulation eg.in svg folder. 
+
+// look at code of other use cases 
