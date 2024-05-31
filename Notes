@@ -4,3 +4,6 @@
 1. using to 
 gsap.to({key value pair})
 eg.  gsap.to("css selector",{ // properties object})
+
+* When you are moving element from initial position to final position we use gsap.to 
+* when we are moving element from final position to initial position we use gsap.from 
