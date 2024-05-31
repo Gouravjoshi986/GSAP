@@ -8,3 +8,10 @@ eg.  gsap.to("css selector",{ // properties object})
 * When you are moving element from initial position to final position we use gsap.to 
 * when we are moving element from final position to initial position we use gsap.from 
 // You can also use css properties in this gsap methods (* write in camel case)
+
+* When working with multiple elements we use stagger to make sure everyone works one by one.  ( each element will run one by one and will take time you mentioned in stagger)
+// for repeat we can use repeat property and give it value for no. of repetitions
+// Repeat = -1 is for infinite 
+
+* Property for going from initial to final state and coming back from final to initial state is called yoyo. 
+// This yoyo property could be set to true or false.

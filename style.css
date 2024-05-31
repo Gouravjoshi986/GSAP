@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:#fff;
 }
 html,body{
     height: 100%;
@@ -19,4 +20,9 @@ body{
     height: 300px;
     width: 300px;
     background-color: lightseagreen;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color:whitesmoke;
 }
