@@ -20,3 +20,19 @@ eg.  gsap.to("css selector",{ // properties object})
 // When we want to run animation in a sequentital manner we use timelines as it would be a big hassle to calculate all the delays and hardcode them in our code. 
 // var tl = gsap.timeline()
 // this tl object is now a timeline object and the objects written using tl.to or from will now run in sync and you dont need to hand out delays now. 
+
+
+* Scroll Trigger = keeps track of users scrolling and triggers animations based on users scroll 
+-- plugin of gsap 
+it can be directly used while writing properties object * scrollTrigger:"selector name"
+* or we can use scrollTrigger:{
+    trigger:"selector name",
+    scroller:"body",
+    marker:true/false,
+    start:"top 60% etc."
+    end:"some value"     
+}
+// these are scroll trigger properties and can be used to have more control 
+* to make the animation completely dependent on scrolling we can use property:
+* scrub: true or value between 1 to 5
+higher the value more the smoothness.
