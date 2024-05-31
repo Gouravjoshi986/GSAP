@@ -36,3 +36,4 @@ it can be directly used while writing properties object * scrollTrigger:"selecto
 * to make the animation completely dependent on scrolling we can use property:
 * scrub: true or value between 1 to 5
 higher the value more the smoothness.
+// whenever a pin property is used in scroll trigger the trigger must be the parent element.  and the element will stop and wont move till we move back. 
