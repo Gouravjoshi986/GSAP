@@ -37,3 +37,9 @@ it can be directly used while writing properties object * scrollTrigger:"selecto
 * scrub: true or value between 1 to 5
 higher the value more the smoothness.
 // whenever a pin property is used in scroll trigger the trigger must be the parent element.  and the element will stop and wont move till we move back. 
+
+// SVG = scalable vector graphics (pixels dont distort in these images)
+// it is a container (svg path curve).  we can change the d/path of svg to modify it. 
+
+Gsap easing is used to control graph/curve speeds.
+svgs can be modified by dom manipulation eg.in svg folder. 
