@@ -72,3 +72,7 @@ useGSAP(()=>{
 useGSAP(()=>{},{scope:"container class name"});
 // then this will only run for container class objects 
 // you can also use a dependency array as in useeffect in the useGSAP hook 
+
+// when an animation is over if it is not written in useGSAP hook them it will stick in the memory and it will slow down our website. to prevent this : we can use contextSafe from useGSAP and it will be dead. after the fucntion is over.
+const {contextSafe} = useGSAp()
+const func name = contextSafe(()=>{}) 

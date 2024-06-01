@@ -10,7 +10,7 @@ const App = () => {
       delay:1,
     })
   },{scope:"container1"})
-
+  // const [contextSafe] = useGSAP;
   const [box, setBox] = useState(0);
   const random = gsap.utils.random(-200,200,30)
   useGSAP(()=>{
