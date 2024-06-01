@@ -60,4 +60,15 @@ eg  var tl = gsap.timeline({
     }
 })
 
-// *  Standard gsap was not compatible with react so a new hook was created which can be found on gsap react docs   hook =  useGSAP()
+// *  Standard gsap was not compatible with react so a new hook was created which can be found on gsap react docs   hook =  useGSAP() from @gsap/react    and gsap from gsap 
+// just write hook and animation function in it
+useGSAP(()=>{
+    gsap.to("",{
+        properties  
+    })
+})
+
+// you can also use   useRef() to give reference to gsap  and pass it to function as < ref={gsapref} >   nad use this gsapref for property assigning.   // used when multiple objects of same classes are there and some specific are to be targeted    * we can also target specific elements by using scope in hook. 
+useGSAP(()=>{},{scope:"container class name"});
+// then this will only run for container class objects 
+// you can also use a dependency array as in useeffect in the useGSAP hook 
