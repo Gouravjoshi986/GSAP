@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+  background-color: #111;
+  padding: 0.7rem;
+}
+.box{
+  background-color: lightblue;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0.7rem;
+}

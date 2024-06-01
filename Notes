@@ -45,3 +45,19 @@ Gsap easing is used to control graph/curve speeds.
 svgs can be modified by dom manipulation eg.in svg folder. 
 
 // look at code of other use cases 
+
+// to provide delay during a timeline use -=1 or +=1 after property object 
+eg .  to.from("",{
+    properties
+},"-=1"/"name")          --> starts this animation one sec earlier 
+* if you pass a random string to two differant objects then they will run together  
+  - classes with "name" will run together in timeline. 
+
+// you can pass scroll trigger in timeline object to trigger a timeline. 
+eg  var tl = gsap.timeline({
+    scrollTrigger:{
+        properties. 
+    }
+})
+
+// *  Standard gsap was not compatible with react so a new hook was created which can be found on gsap react docs   hook =  useGSAP()
